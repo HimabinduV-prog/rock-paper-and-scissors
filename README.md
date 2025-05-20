@@ -12,3 +12,6 @@ lets start with the basic logic of this game by generating a random number betwe
 well if computer chose scissors and user chose paper,then user going to lose,
 or if computer chose rock and i chose paper,then user going to win
 First thing we need to do is produce a user choice
+Now that we've gotten hold of what user wants to choose  , the next thing to do is figure out what the computer is going to choose
+So i'm going to make anothere variable called computer choice and i'm going to generate a random number, so to do that we have to import the random module,
+and then we can start using it to generate random whole numbers by using random.randint(a,b) and the range is going to be between 0 and 2
